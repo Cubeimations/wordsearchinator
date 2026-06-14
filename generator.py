@@ -143,9 +143,9 @@ def main(word_list:list, num:int, width:int, height:int, word_count:int, attempt
         except IOError:
             font = ImageFont.load_default(size=40)
         try:
-            font2 = ImageFont.truetype("comic sans.ttf", 40)
+            font2 = ImageFont.truetype("fonts/Aller_Bd.ttf", 45)
         except IOError:
-            font2 = ImageFont.load_default(size=40)
+            font2 = ImageFont.load_default(size=45)
 
         counter = 0
         for row in range(height):
